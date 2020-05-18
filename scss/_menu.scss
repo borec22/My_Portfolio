@@ -1,0 +1,30 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 7vh;
+  background-color: $main-red;
+  width: 100vw;
+  @include box-shadow-small;
+
+  &__menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 7vh;
+    margin-right: 3rem;
+  }
+
+  &__link {
+    list-style-type: none;
+    height: 7vh;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
+
+    &:hover {
+      background-color: $main-green;
+    }
+  }
+}

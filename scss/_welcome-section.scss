@@ -1,0 +1,24 @@
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: $main-green;
+  @include box-shadow-small;
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1.7rem;
+    font-family: $cursive-font;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2e2e
+   
+  }
+}

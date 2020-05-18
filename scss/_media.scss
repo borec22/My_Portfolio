@@ -1,0 +1,32 @@
+@include media-lg {
+  .projects-section {
+    .btn {
+      display: inline-block;
+      width: 8.5rem;
+      margin-left: 47%;
+      margin-right: auto;
+      margin-bottom: 5rem;
+  
+      &__show-all {
+        position: absolute;
+        background-color: $main-green;
+        font-size: 1.3rem;
+        padding: 0.8rem;
+        border-radius: 0.3rem;
+        @include transition-ease;
+  
+        & > i {
+          transition: transform 0.4s;
+        }
+  
+        &:hover {
+          background-color: $main-red;
+  
+          & > i {
+            transform: translateX(3px);
+          }
+        }
+      }
+    }
+  }
+}

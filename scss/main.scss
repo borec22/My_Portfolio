@@ -1,0 +1,24 @@
+@import 'config';
+@import 'menu';
+@import 'welcome-section';
+@import 'projects';
+@import 'footer';
+@import 'media';
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: $main-white;
+  line-height: 1;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: $main-white;
+}
+
+
+
+
+
+
